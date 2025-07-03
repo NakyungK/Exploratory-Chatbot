@@ -1,0 +1,5 @@
+st_venv/
+__pycache__/
+.vscode/
+.gradio/
+venv/
