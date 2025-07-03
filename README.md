@@ -54,14 +54,18 @@ cd Exploratory-Chatbot
 
 ### 2. Set Up Virtual Environment
 
+```bash
 python -m venv .venv
 .venv\Scripts\activate      # On Windows
 # OR
 source .venv/bin/activate   # On macOS/Linux
+```
+
 
 ### 3. Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 | Package         | Purpose                         |
 | --------------- | ------------------------------- |
@@ -80,8 +84,10 @@ Create a .env file in the project root:
     ANTHROPIC_API_KEY=your-anthropic-api-key-here
 
 ### 5. Run the APP
-python app.py
 
+```bash
+python app.py
+```
 
 📝 License
 This project is for academic or experimental use only. Please handle your API keys and environment files securely.
