@@ -89,6 +89,7 @@ Create a .env file in the project root:
 python app.py
 ```
 
-📝 License
-This project is for academic or experimental use only. Please handle your API keys and environment files securely.
+## 📝 License
+This project is for academic or experimental use only. 
+Please handle your API keys and environment files securely.
 If you use or adapt this code in your own work, **please provide attribution**
