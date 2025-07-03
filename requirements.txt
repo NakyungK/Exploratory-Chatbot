@@ -1,0 +1,5 @@
+gradio
+requests
+anthropic
+pandas
+openpyxl
