@@ -1,6 +1,6 @@
 # 🧠 Gradio Chatbot
 
-This project is a chatbot application built using **Gradio** and the **Anthropic Claude API**.  
+This is a chatbot application built using **Gradio** and the **Anthropic Claude API**.  
 It provides an interactive interface for users to engage in conversational exploratory search.
 
 ### This tool was developed as part of the study _"A Study on the Impact of Generative AI Response Disclosure and Prompt Initiative in Exploratory Search Experience"_ and is publicly available for **paper review and reproducibility** purposes.
@@ -27,6 +27,7 @@ It provides an interactive interface for users to engage in conversational explo
 
 
 ## 📁 Project Structure
+```bash
 
 MY_Grad/
 │
@@ -38,7 +39,7 @@ MY_Grad/
 ├── .gitignore 
 ├── README.md # Project documentation (you are here)
 └── .env # 🔐 [NOT committed] contains API keys
-
+```
 
 ---
 
