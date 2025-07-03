@@ -29,7 +29,7 @@ It provides an interactive interface for users to engage in conversational explo
 ## 📁 Project Structure
 ```bash
 
-MY_Grad/
+Exploratory_Chatbot/
 │
 ├── app.py # Main Gradio application (entry point)
 ├── my_prompt.py # Returns prompt based on conditions
