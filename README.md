@@ -1,8 +1,8 @@
-# 🧠 Gradio Chatbot
+# 🧠 Generative AI Exploratory Search Chatbot
 
 This is a chatbot application built using **Gradio** and the **Anthropic Claude API**.  
 It provides an interactive interface for users to engage in conversational exploratory search.
-<a href="https://github.com/NakyungK/Exploratory-Chatbot" target="_blank">🔗 View Source Code on GitHub</a>
+<a href="https://github.com/NakyungK/ai_explor_search" target="_blank">🔗 View Source Code on GitHub</a>
 
 
 ### This tool was developed as part of the study _"A Study on the Impact of Generative AI Response Disclosure and Prompt Initiative in Exploratory Search Experience"_ and is publicly available for **paper review and reproducibility** purposes.
@@ -50,8 +50,8 @@ Exploratory_Chatbot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/NakyungK/Exploratory-Chatbot.git
-cd Exploratory-Chatbot
+git clone https://github.com/NakyungK/ai_explor_search.git
+cd ai_explor_search
 ```
 
 ### 2. Set Up Virtual Environment
