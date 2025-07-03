@@ -1,57 +1,86 @@
-# Gradio Chatbot
+# 🧠 Gradio Chatbot
 
-This project is a simple chatbot application built using Gradio and the Anthropic Claude API. The chatbot provides an interactive interface for users to engage in conversations.
+This project is a chatbot application built using **Gradio** and the **Anthropic Claude API**.  
+It provides an interactive interface for users to engage in conversational exploratory search.
+This tool was developed as part of the study _"A Study on the Impact of Generative AI Response Disclosure and Prompt Initiative in Exploratory Search Experience"_ and is publicly available for **paper review and reproducibility** purposes.
 
-## Project Structure
+---
 
-```
-gradio-chatbot
-├── src
-│   ├── app.py               # Entry point of the application
-│   ├── chatbot
-│   │   ├── app.py            # Contains the chatbot logic and API interaction
-│   │   ├── my_prompt.py      # Contains prompts for each conditions
-│   │   └── my_sdk_caller.py  # Initializes the chatbot module
-├── requirements.txt          # Lists the project dependencies
-└── README.md                 # Documentation for the project
-```
+## 🌟 Features
 
-## Setup Instructions
+- ✅ Supports four prompt modes: `OG`, `OS`, `PG`, and `PS`
+- 🧠 Claude 3 Sonnet integration via `anthropic` SDK
+- 💬 Gradio-based dynamic chat interface
+- 📊 Logs all user activity (including prompts, responses, and elapsed time)
+- ⬇️ One-click log download in Excel format (`.xlsx`)
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd gradio-chatbot
-   ```
+---
 
-2. **Create a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+## 🖼️ Demo Screenshot
 
-3. **Install the required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+> Here's an example of the chatbot interface in action:
 
-4. **Set up your Claude API key:**
-   Make sure to set your Claude API key in your environment variables or directly in the code (not recommended for production).
+<p align="center">
+  <img src="screenshot/Example.png" alt="Gradio Chatbot Screenshot" width="700"/>
+</p>
 
-## Usage
 
-To run the chatbot application, execute the following command:
+## 📁 Project Structure
+
+MY_Grad/
+│
+├── app.py # Main Gradio application (entry point)
+├── my_prompt.py # Returns prompt based on conditions
+├── my_sdk_caller.py # Calls Claude API with prompt and user input
+│
+├── requirements.txt
+├── .gitignore 
+├── README.md # Project documentation (you are here)
+└── .env # 🔐 [NOT committed] contains API keys
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-python src/app.py
+git clone https://github.com/NakyungK/Exploratory-Chatbot.git
+cd Exploratory-Chatbot
 ```
 
-Once the application is running, you can access the chatbot interface in your web browser at `http://localhost:7860`.
+### 2. Set Up Virtual Environment
 
-## Contributing
+python -m venv .venv
+.venv\Scripts\activate      # On Windows
+# OR
+source .venv/bin/activate   # On macOS/Linux
 
-Feel free to submit issues or pull requests if you have suggestions or improvements for the project.
+### 3. Install Dependencies
 
-## License
+pip install -r requirements.txt
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+| Package         | Purpose                         |
+| --------------- | ------------------------------- |
+| `gradio`        | UI framework for web apps       |
+| `openai`        | (Optional) compatibility layer  |
+| `requests`      | API communication (general use) |
+| `anthropic`     | Access Claude 3 API             |
+| `python-dotenv` | Load environment variables      |
+| `pandas`        | For logging and exporting data  |
+| `openpyxl`      | Save logs to `.xlsx`            |
+
+
+### 4. Configure API key
+Create a .env file in the project root:
+
+    ANTHROPIC_API_KEY=your-anthropic-api-key-here
+
+### 5. Run the APP
+python app.py
+
+
+📝 License
+This project is for academic or experimental use only. Please handle your API keys and environment files securely.
+If you use or adapt this code in your own work, **please provide attribution**
