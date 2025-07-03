@@ -2,6 +2,7 @@
 
 This is a chatbot application built using **Gradio** and the **Anthropic Claude API**.  
 It provides an interactive interface for users to engage in conversational exploratory search.
+
 <a href="https://github.com/NakyungK/ai_explor_search" target="_blank">
 🔗 View Source Code on GitHub</a>
 
