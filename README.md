@@ -22,11 +22,18 @@ It provides an interactive interface for users to engage in conversational explo
 ---
 
 ## 🖼️ Demo Screenshot
+* English adaptation for illustration only. The experiment was conducted in Korean.
 
 > This figure provides an overview of the experimental conditions and illustrates how each condition was implemented in the chatbot interface.
 
 <p align="center">
   <img src="screenshot/overall_figure.png" alt="Exploratory Chatbot" width="1000"/>
+</p>
+
+> This figure shows an example of the chatbot interface used in the experiment.
+
+<p align="center">
+  <img src="screenshot/eng_example.png" alt="Exploratory Chatbot example" width="1000"/>
 </p>
 
 
