@@ -26,7 +26,7 @@ It provides an interactive interface for users to engage in conversational explo
 > This figure provides an overview of the experimental conditions and illustrates how each condition was implemented in the chatbot interface.
 
 <p align="center">
-  <img src="screenshot/cond_figure.png" alt="Gradio Chatbot Screenshot" width="700"/>
+  <img src="screenshot/overall_figure.png" alt="Exploratory Chatbot" width="1000"/>
 </p>
 
 
