@@ -33,7 +33,7 @@ It provides an interactive interface for users to engage in conversational explo
 * This figure shows an example of the chatbot interface used in the experiment.
 
 <p align="center">
-  <img src="screenshot/eng_example.png" alt="Exploratory Chatbot example" width="500"/>
+  <img src="screenshot/eng_example.png" alt="Exploratory Chatbot example" width="400"/>
 </p>
 
 
