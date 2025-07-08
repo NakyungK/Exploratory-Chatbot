@@ -23,10 +23,10 @@ It provides an interactive interface for users to engage in conversational explo
 
 ## 🖼️ Demo Screenshot
 
-> Here's an example of the chatbot interface in action:
+> This figure provides an overview of the experimental conditions and illustrates how each condition was implemented in the chatbot interface.
 
 <p align="center">
-  <img src="screenshot/Example.png" alt="Gradio Chatbot Screenshot" width="700"/>
+  <img src="screenshot/cond_figure.png" alt="Gradio Chatbot Screenshot" width="700"/>
 </p>
 
 
