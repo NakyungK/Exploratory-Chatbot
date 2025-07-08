@@ -13,7 +13,7 @@ It provides an interactive interface for users to engage in conversational explo
 
 ## 🌟 Features
 
-- ✅ Supports four prompt modes: `OG`, `OS`, `PG`, and `PS`
+- ✅ Supports four Response Disclosure X Prompt Initiative modes: `OG`, `OS`, `PG`, and `PS`
 - 🧠 Claude 3 Sonnet integration via `anthropic` SDK
 - 💬 Gradio-based dynamic chat interface
 - 📊 Logs all user activity (including prompts, responses, and elapsed time)
@@ -74,7 +74,6 @@ pip install -r requirements.txt
 | Package         | Purpose                         |
 | --------------- | ------------------------------- |
 | `gradio`        | UI framework for web apps       |
-| `openai`        | (Optional) compatibility layer  |
 | `requests`      | API communication (general use) |
 | `anthropic`     | Access Claude 3 API             |
 | `python-dotenv` | Load environment variables      |
